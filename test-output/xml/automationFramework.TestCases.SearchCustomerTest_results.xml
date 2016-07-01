@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirefoxTest"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="31.775">
+  <properties />
+  
+  
+            <testcase name="createNewCustomer" time="16.266" classname="automationFramework.TestCases.SearchCustomerTest" />
+                <testcase name="searchCustomer" time="15.509" classname="automationFramework.TestCases.SearchCustomerTest" />
+      
+</testsuite>

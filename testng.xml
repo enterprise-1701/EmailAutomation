@@ -1,0 +1,12 @@
+<suite name="Test2 - Suite" >
+	<test name ="FirefoxTest">
+	<parameter name="browser" value="chrome.exe" />
+		<classes>
+		    <class name="automationFramework.TestCases.EmailTest3" />
+		</classes>
+	</test>
+		<listeners>
+       <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+</suite>

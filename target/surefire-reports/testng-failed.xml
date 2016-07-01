@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Test2 - Suite]">
+  <parameter name="browser" value="firefox.exe"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="FirefoxTest(failed)">
+    <parameter name="browser" value="firefox.exe"/>
+    <classes>
+      <class name="automationFramework.TestCases.SearchCustomerTest">
+        <methods>
+          <include name="createNewCustomer"/>
+          <include name="setUp"/>
+          <include name="searchCustomer"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- automationFramework.TestCases.SearchCustomerTest -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Test2 - Suite] -->

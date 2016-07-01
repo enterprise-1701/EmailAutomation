@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test2 - Suite" duration-ms="1420" started-at="2016-06-30T21:13:45Z" finished-at="2016-06-30T21:13:46Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="1420" started-at="2016-06-30T21:13:45Z" finished-at="2016-06-30T21:13:46Z">
+      <class name="automationFramework.TestCases.EmailTest3">
+        <test-method status="PASS" signature="checkEmail()[pri:0, instance:automationFramework.TestCases.EmailTest3@887af79]" name="checkEmail" duration-ms="1404" started-at="2016-06-30T14:13:45Z" finished-at="2016-06-30T14:13:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmail -->
+      </class> <!-- automationFramework.TestCases.EmailTest3 -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Test2 - Suite -->
+</testng-results>

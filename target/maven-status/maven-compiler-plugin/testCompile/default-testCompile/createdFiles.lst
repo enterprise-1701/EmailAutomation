@@ -1,0 +1,12 @@
+automationFramework\PageObjects\SignInPage.class
+automationFramework\Utilities\Logging.class
+automationFramework\PageObjects\DashboardPage.class
+automationFramework\PageObjects\NewCustomerPage.class
+automationFramework\Utilities\Robots.class
+automationFramework\PageObjects\BasePage.class
+automationFramework\TestCases\SearchCustomerTest.class
+automationFramework\PageObjects\SearchPage.class
+automationFramework\DAO\MongoAutomation.class
+automationFramework\Utilities\Global.class
+automationFramework\Utilities\Utils.class
+CompassAutomation\AutomationFramework\AppTest.class
